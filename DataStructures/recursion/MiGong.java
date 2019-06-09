@@ -34,8 +34,8 @@ public class MiGong {
 		}
 
 		//使用递归回溯给小球找路
-		//setWay(map, 1, 1);
-		setWay2(map, 1, 1);
+		setWay(map, 1, 1);
+		//setWay2(map, 1, 1);
 
 		//输出新的地图, 小球走过，并标识过的递归
 		System.out.println("小球走过，并标识过的 地图的情况");
